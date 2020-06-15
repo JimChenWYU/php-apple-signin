@@ -1,0 +1,26 @@
+{
+    "name": "jimchen/php-apple-signin",
+    "description": "A simple library to decode and parse Apple Sign In client tokens.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JimChen",
+            "email": "imjimchen@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "lcobucci/jwt": "^3.0|^4.0",
+        "ext-json": "*",
+        "ext-openssl": "*"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "JimChen\\AppleSignIn\\": "src/php-apple-signin"
+        }
+    }
+}
